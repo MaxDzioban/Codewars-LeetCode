@@ -17,6 +17,7 @@ def in_order(node):
     talon += in_order(node.right)
     return talon
 
+# post_order
 def post_order(node):
     if node is None:
         return []
